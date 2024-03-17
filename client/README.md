@@ -20,16 +20,16 @@ application.
 With that being said, below are some pictures of our Figma wireframe -
 
 This is a picture of the landing page that users will see prior to logging in:
-[landing-page](../documentation/wireframes/TechTreks_page-0001.jpg)
+![landing-page](../documentation/wireframes/TechTreks_page-0001.jpg)
 
 This is a picture of the teams page that users will see prior to logging in:
-[team-page](../documentation/wireframes/TechTreks_page-0002.jpg)
+![team-page](../documentation/wireframes/TechTreks_page-0002.jpg)
 
 This is a picture of the about page that users will see prior to logging in:
-[about-page](../documentation/wireframes/TechTreks_page-0003.jpg)
+![about-page](../documentation/wireframes/TechTreks_page-0003.jpg)
 
 And this is a picture of the interface once users log-in to the application:
-[user-interface](../documentation/wireframes/TechTreks_page-0004.jpg)
+![user-interface](../documentation/wireframes/TechTreks_page-0004.jpg)
 
 The frame of the interface (last one) will be updated before that is 
 implemented as well.
