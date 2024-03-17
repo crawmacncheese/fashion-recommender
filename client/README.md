@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# D'Éclat Front-End Framework
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This is the overview of the front-end for our project. As stated on the main
+[README](../README.md) file, the front-end of our project was built using
+ReactJS. We also plan on using TailwindCSS to bootstrap the styling of our
+web application. 
 
-## Available Scripts
+## Wireframe
+We have a very simple... overall layout for our application. Below are some
+images of our wireframe. We wanted to design a wireframe for the application
+because, from past experience, coding with no design is practically
+impossible. We decided to wireframe D'Éclat in Figma.
 
-In the project directory, you can run:
+As prospective software engineers, we want to be able to create a design that
+is friendly to look at (developer-wise), and be able to analyze it with
+with respect to the design as well as the necessary tools needed to build the
+application.
 
-### `npm start`
+With that being said, below are some pictures of our Figma wireframe -
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is a picture of the landing page that users will see prior to logging in:
+[landing-page](./documentation/TechTreks_page-0001.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This is a picture of the teams page that users will see prior to logging in:
+[team-page](./documentation/TechTreks_page-0002.jpg)
 
-### `npm test`
+This is a picture of the about page that users will see prior to logging in:
+[about-page](./documentation/TechTreks_page-0003.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+And this is a picture of the interface once users log-in to the application:
+[user-interface](./documentation/TechTreks_page-0004.jpg)
 
-### `npm run build`
+The frame of the interface (last one) will be updated before that is 
+implemented as well.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Components
+[As of now, we have not started coding this part of the application yet, so this will be empty until the front-end is being built.]
