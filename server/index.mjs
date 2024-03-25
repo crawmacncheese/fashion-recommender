@@ -2,6 +2,7 @@ import express from 'express'
 import path from 'path'
 import { fileURLToPath } from 'url';
 import cors from 'cors';
+import './models/db.mjs'
 
 const app = express();
 const PORT = 8080;
@@ -14,7 +15,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
-	console.log(req.query);
+	console.log('Response Query: ', req.query);
 	res.json({message: 'test d\'éclat app'});
 });
 

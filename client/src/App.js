@@ -17,6 +17,10 @@ function App() {
       });
   }, []);
 
+  // all of the above code is just to test and make 
+  // sure the message from the backend is being read
+  // by the front-end
+
   return (
     <div className="App">
       <h1>
