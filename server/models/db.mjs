@@ -16,8 +16,7 @@ const userSchema = new mongoose.Schema({
         }
     ]
     */
-    // i'm also not sure if we want have this document
-    // embedded or referenced yet.
+    // i'm also not sure if we want have this documen
 });
 
 // this next schema will probably be a product schema
