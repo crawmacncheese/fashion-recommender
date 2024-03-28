@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Link as scrollLink } from 'react-scroll';
+import { Link as scrollLink, animateScroll as scroll } from 'react-scroll';
 
 export default function Navbar() {
     // use state, initially set to false and is modified with tailwind
