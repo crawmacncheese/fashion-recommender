@@ -1,6 +1,15 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
 
+// import router dependency
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+// pages to be imported for react router to route to
+import Home from './pages/Home.jsx';
+import About from './pages/About.jsx';
+import Research from './pages/Research.jsx';
+import Team from './pages/Team.jsx'
+
 function App() {
   const [message, setMessage] = useState('Hello, World!');
 
@@ -22,10 +31,10 @@ function App() {
   // by the front-end
 
   return (
-    <div className="App">
-      <h1>
-        {message}
-      </h1>
+    <div className="App bg-[#FBF6F0] h-screen">
+      <Router>
+        <Home />
+      </Router>
     </div>
   );
 }
