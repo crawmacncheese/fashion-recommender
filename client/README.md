@@ -20,19 +20,28 @@ application.
 With that being said, below are some pictures of our Figma wireframe -
 
 This is a picture of the landing page that users will see prior to logging in:
-![landing-page](../documentation/wireframes/TechTreks_page-0001.jpg)
+![landing-page](../documentation/wireframes/v1.01/0001.jpg)
 
-This is a picture of the teams page that users will see prior to logging in:
-![team-page](../documentation/wireframes/TechTreks_page-0002.jpg)
+This is a picture of the research page that users will see prior to logging in:
+![team-page](../documentation/wireframes/v1.01/0002.jpg)
 
-This is a picture of the about page that users will see prior to logging in:
-![about-page](../documentation/wireframes/TechTreks_page-0003.jpg)
+These next two pictures are pretty similar in terms of style as the content does
+not really differ between the two pages, besides being just about the project and
+about Alvin and Zavier. 
+![about-page](../documentation/wireframes/v1.01/0003.jpg)
+![user-interface](../documentation/wireframes/v1.01/0004.jpg)
 
-And this is a picture of the interface once users log-in to the application:
-![user-interface](../documentation/wireframes/TechTreks_page-0004.jpg)
+This is a simple control flow of how a user would interact with the interface
+after logging into their account:
 
-The frame of the interface (last one) will be updated before that is 
-implemented as well.
+![landing-page](../documentation/wireframes/v1.01/0006.jpg)
+![selection](../documentation/wireframes/v1.01/0007.jpg)
+![generating](../documentation/wireframes/v1.01/0008.jpg)
+![generation](../documentation/wireframes/v1.01/0009.jpg)
 
+This is the final wireframe and [prototype](../documentation/wireframes/v1.01/TechTreks-v1-01.fig)
+that we plan on creating and the next steps of this project include implementing
+the front-end of the application now.
 ## Components
-[As of now, we have not started coding this part of the application yet, so this will be empty until the front-end is being built.]
+[As of now, we have not started coding this part of the application yet, so 
+this will be empty until the front-end is being built.]
