@@ -10,6 +10,9 @@ import About from './pages/About.jsx';
 import Research from './pages/Research.jsx';
 import Team from './pages/Team.jsx'
 
+// components to be imported
+import Navbar from './components/Navbar.jsx';
+
 function App() {
   const [message, setMessage] = useState('Hello, World!');
 
@@ -31,9 +34,15 @@ function App() {
   // by the front-end
 
   return (
-    <div className="App bg-[#FBF6F0] h-screen">
+    <div className="App">
       <Router>
-        <Home />
+        <Navbar />
+        <div className="pt-12">
+          <Home />
+          <Team />
+          <About />
+          <Research />
+        </div>
       </Router>
     </div>
   );

@@ -11,8 +11,26 @@ export default function Team() {
     const [alvinData, setAlvinData] = useState('');
 
     return(
-        <div>
-            <Navbar />
+        <div className="h-screen bg-[#333333] text-[#FBF6F0]">
+            <div>
+                <h1
+                className="font-bold text-8xl">
+                    TEAM
+                </h1>
+            </div>
+            {/* containt for our bios */}
+            <div
+            className="">
+                {/* bio 1 */}
+                <p>
+
+                </p>
+
+                {/* bio 2 */}
+                <p>
+
+                </p>
+            </div>
         </div>
     );
 }
