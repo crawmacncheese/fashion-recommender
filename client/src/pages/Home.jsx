@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar.jsx'
 export default function Home() {
     // no functionality is needed here
     return(
-        <div className="h-screen bg-[#FBF6F0]">
+        <div className="h-screen bg-[#FBF6F0]" id="home">
             <div className="py-96 ml-9 drop-shadow-xl font-bold font-[Inter] ">
                 <h1 className="flex text-8xl drop-shadow-2xl font-bold font-[Inter]">
                     D'Éclat

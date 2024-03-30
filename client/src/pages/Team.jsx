@@ -5,14 +5,14 @@ export default function Team() {
         <div className="h-screen bg-[#333333] text-[#FBF6F0]" id="team">
             {/* team component */}
             <div className="py-56">
-                <h1 className="flex items-center justify-center text-8xl drop-shadow-2xl font-bold font-[Inter]">
+                <h1 className="flex items-center justify-center drop-shadow-2xl text-8xl font-bold font-[Inter]">
                     TEAM
                 </h1>
             </div>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-2 font-bold">
                 {/* bio 1 */}
                 <div id="bios">
-                    <p>
+                    <p> 
                         My name is Zavier. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum 
                         curabitur vitae nunc sed velit dignissim sodales ut. Sit amet venenatis urna 
