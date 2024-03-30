@@ -1,9 +1,10 @@
+// Navbar code
+
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Link as scrollLink } from 'react-scroll';
+//import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 export default function Navbar() {
-    // use state, initially set to false and is modified with viewport config
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -11,19 +12,19 @@ export default function Navbar() {
     };
 
     return (
-        <div className="fixed w-full px-4 py-2 text-[#FBF6F0] bg-[#333333] font-bold drop-shadow-md">
+        <div className="fixed w-full px-4 py-2 text-[#FBF6F0] bg-[#333333] font-bold drop-shadow-md z-50">
             <div className="flex justify-between items-center">
                 <h1 className="text-2xl ">
-                    <scrollLink 
+                    <Link 
                     to="/"
                     smooth={true}
                     duration={500}
-                    className="drop-shadow-2xl">
+                    className="drop-shadow-2xl"
+                    onClick={toggleMenu}>
                         D'Éclat
-                    </scrollLink>
+                    </Link>
                 </h1>
 
-                {/* code for hamburger if on smaller viewports */}
                 <div className="text-3xl lg:hidden">
                     <button onClick={toggleMenu}>
                         <svg
@@ -43,41 +44,37 @@ export default function Navbar() {
                     </button>
                 </div>
 
-                {/* Navbar code */}
                 <div className={`lg:flex lg:items-center ${isOpen ? 'block' : 'hidden'}`}>
                     <ul className="lg:flex lg:space-x-4">
                         <li>
-                            <scrollLink 
-                            href="team"
-                            smooth={true}
-                            duration={500}>
-                                TEAM
-                            </scrollLink>
-                        </li>
-                        <li>
-                            <scrollLink 
-                            to="about"
+                            <Link 
+                            to="team"
                             smooth={true}
                             duration={500}
-                            >
-                                ABOUT
-                            </scrollLink>
-                        </li>
-                        <li>
-                            <scrollLink 
-                            to="/research"
-                            smooth={true}
-                            duration={500}>
-                                RESEARCH
-                            </scrollLink>
+                            onClick={toggleMenu}
+                            className="cursor-pointer">
+                                TEAM
+                            </Link>
                         </li>
                         <li>
                             <Link 
-                            className="bg-[#333333] hover:bg-[#6A6A6A] text-[#FBF6F0] py-2 px-4 rounded-full"
-                            to="/login"
+                            to="about"
                             smooth={true}
-                            duration={500}>
-                                LOGIN/SIGN-UP
+                            duration={500}
+                            onClick={toggleMenu}
+                            className="cursor-pointer"
+                            >
+                                ABOUT
+                            </Link>
+                        </li>
+                        <li>
+                            <Link 
+                            to="research"
+                            smooth={true}
+                            duration={500}
+                            onClick={toggleMenu}
+                            className="cursor-pointer">
+                                RESEARCH
                             </Link>
                         </li>
                     </ul>
@@ -86,4 +83,3 @@ export default function Navbar() {
         </div>
     );
 }
-

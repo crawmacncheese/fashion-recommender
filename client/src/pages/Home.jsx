@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Navbar from '../components/Navbar.jsx'
 
 export default function Home() {
-
+    // no functionality is needed here
     return(
         <div className="h-screen bg-[#FBF6F0]">
             <div className="py-96 ml-9 drop-shadow-xl font-bold font-[Inter] ">

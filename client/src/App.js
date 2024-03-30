@@ -37,12 +37,10 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <div className="pt-12">
           <Home />
           <Team />
           <About />
           <Research />
-        </div>
       </Router>
     </div>
   );
