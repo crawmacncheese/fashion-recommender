@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import './App.css';
 
 // import router dependency
@@ -6,41 +6,29 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 // pages to be imported for react router to route to
 import Home from './pages/Home.jsx';
-import About from './pages/About.jsx';
+import Concept from './pages/Concept.jsx';
 import Research from './pages/Research.jsx';
 import Team from './pages/Team.jsx'
+import Login from './pages/Login.jsx'
 
 // components to be imported
 import Navbar from './components/Navbar.jsx';
+import VideoBackground from './components/VideoBackground.jsx';
 
 function App() {
-  const [message, setMessage] = useState('Hello, World!');
-
-  useEffect(() => {
-    fetch('http://localhost:8080/')
-      .then((res) => {
-        return res.json();
-      })
-      .then((data) => {
-        data = setMessage(data.message);
-      })
-      .catch((error) => {
-        console.log('error fetching', error)
-      });
-  }, []);
-
-  // all of the above code is just to test and make 
-  // sure the message from the backend is being read
-  // by the front-end
 
   return (
     <div className="App">
       <Router>
         <Navbar />
-          <Home />
-          <Team />
-          <About />
-          <Research />
+        <VideoBackground />
+        <Home />
+        <Team />
+        <Concept />
+        <Research />
+        <Routes>
+          <Route exact path="/login" element={<Login />}/>
+        </Routes>
       </Router>
     </div>
   );
