@@ -1,49 +1,68 @@
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
+import { Link, BrowserRouter as Router, Route, Routes } from 'react-router';
 
 // images
 import Image from '../media/img/form-img.jpeg';
 import { FaRegUserCircle, FaLock } from "react-icons/fa";
 
-
-export default function LoginForm(){
-    return(
-        <div id="loginForm" className="flex">
-            {/* wrap form in div, since it will contain multiple parts */}
-            {/* blur */}
-            <div>
-                <div id="margiela">
-
+export default function LoginForm() {
+    return (
+        <div className="rounded-3xl overflow-hidden shadow-lg border border-[#FBF6F0]">
+            <div className="grid grid-cols-2">
+                {/* Image */}
+                <div className="relative">
+                    <img src={Image} className="object-cover w-full h-full" />
                 </div>
-            </div>
 
-            {/* form */}
-            <div id="login" className="bg-[#FBF6F0] rounded-lg">
-                <h1 className="flex">LOGIN</h1>
-                <form>
-                    <div id="userInput" className="grid justify-center">
-                        <div className="flex">
-                            <FaRegUserCircle />
-                            <input id="userNameInput" placeholder="Username" type="text" className="rounded-l" required/>
+                {/* Form */}
+                <div className="relative bg-[#333333] rounded-r-3xl p-14 py-40">
+                    <h1 className="text-left mb-20 text-[#FBF6F0] font-bold text-3xl">LOGIN</h1>
+                    <form action="">
+                        <div className="flex flex-col mb-6">
+                            <div className="flex items-center">
+                                <FaRegUserCircle className="mr-2" />
+                                <input
+                                    id="userNameInput"
+                                    placeholder="Username"
+                                    type="text"
+                                    className="bg-transparent focus:outline-none border-b border-[#FBF6F0] text-[#FBF6F0]"
+                                    required />
+                            </div>
                         </div>
-                        <div className="flex">
-                            <FaLock />
-                            <input id="password" placeholder="Password" type="password" className="rounded-l" required/>
+                        <div className="flex flex-col mb-6">
+                            <div className="flex items-center">
+                                <FaLock className="mr-2" />
+                                <input
+                                    id="password"
+                                    placeholder="Password"
+                                    type="password"
+                                    className="bg-transparent focus:outline-none border-b border-[#FBF6F0] text-[#FBF6F0]"
+                                    required />
+                            </div>
                         </div>
-                    </div>
-                    <label>
-                        <input type="checkbox" />
-                        Remember me?
-                    </label>
-                    <div id="buttons"> 
-                        <button type="button">LOGIN</button>
-                        <br/>
-                        <p>
-                            Don't have an account?
-                        </p>
-                        <button type="button">CREATE AN ACCOUNT</button>
-                    </div>
-                </form>
+                        <label className="flex items-center mb-6">
+                            <input type="checkbox" className="mr-2" />
+                            <span className="text-[#FBF6F0]">Remember me?</span>
+                        </label>
+                        <div id="buttons">
+                            <button 
+                                type="button" 
+                                className="bg-[#FBF6F0] text-[#333333] font-bold py-2 px-4 rounded-3xl">
+                                LOGIN
+                            </button>
+                            <br />
+                            <p className="text-[#FBF6F0]">
+                                Don't have an account?
+                            </p>
+                            <button 
+                                type="button" 
+                                className="text-[#FBF6F0] underline">
+                                CREATE AN ACCOUNT
+                            </button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     );
