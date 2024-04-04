@@ -20,14 +20,21 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
-        <VideoBackground />
-        <Home />
-        <Team />
-        <Concept />
-        <Research />
         <Routes>
-          <Route exact path="/login" element={<Login />}/>
+          <Route
+          path="/"
+          element={
+            <div>
+              <Navbar />
+              <VideoBackground />
+              <Home />
+              <Team />
+              <Concept />
+              <Research />
+              <Login />
+            </div>
+          }
+        />
         </Routes>
       </Router>
     </div>

@@ -11,10 +11,10 @@ export default function Home() {
                 <VideoBackground />
             </div>
             <div className="py-96 ml-9 drop-shadow-xl font-bold font-[Inter] ">
-                <h1 className="flex text-8xl drop-shadow-2xl font-bold font-[Inter]">
+                <h1 className="text-[#FBF6F0] flex text-8xl drop-shadow-2xl font-bold font-[Inter]">
                     D'Éclat
                 </h1>
-                <h2 className="flex relative ml-24 text-2xl drop-shadow-2xl">
+                <h2 className="text-[#FBF6F0] flex relative ml-24 text-2xl drop-shadow-2xl">
                     Your Personalized Virtual Stylist
                 </h2>
             </div>

@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
+import { useNavigate } from 'react-router-dom';
+
+import { GiHamburgerMenu } from "react-icons/gi";
+
 
 export default function Navbar() {
     // var to determine state of viewport 
@@ -88,16 +91,16 @@ export default function Navbar() {
                             </ScrollLink>
                         </li>
                         <li>
-                            <Link
+                            <ScrollLink
                                 className="bg-[#FBF6F0] hover:bg-[#6A6A6A] hover:text-[#FBF6F0] 
                                         text-[#333333] py-2 px-4 rounded-full cursor-pointer"
-                                to="/login"
+                                to="login"
                                 smooth={true}
                                 duration={500}
-                                onClick={handleLoginRoute}
+                                onClick={toggleMenu}
                             >
                                 LOGIN/SIGN-UP
-                            </Link>
+                            </ScrollLink>
                         </li>
                     </ul>
                 </div>

@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react';
 
-export default function Login(){
+import LoginForm from '../components/LoginForm.jsx';
 
-    return(
-        <div>
-            
+export default function Login() {
+    const [login, setLogin] = useState('');
+
+    const handleLogin = () => {
+        // Implement your login logic here
+    };
+
+    return (
+        <div id="login" className="h-screen w-screen flex items-center justify-center">
+            <LoginForm />
+
         </div>
     );
-
 }
+
