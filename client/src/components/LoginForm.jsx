@@ -7,10 +7,11 @@ import Image from '../media/img/form-img.jpeg';
 import { FaRegUserCircle, FaLock } from "react-icons/fa";
 
 export default function LoginForm() {
-    const [login, setLogin] = useState('');
+    const [login, setLogin] = useState('LOGIN');
 
     const handleLogin = () => {
         // Implement your login logic here
+        onclick(setLogin('LOGGING IN...'));
     };
 
     return (
@@ -58,7 +59,7 @@ export default function LoginForm() {
                                 <button 
                                     type="button" 
                                     className="bg-[#FBF6F0] text-[#333333] font-bold py-2 px-4 rounded-3xl">
-                                    LOGIN
+                                    {login}
                                 </button>
                             </Link>
                             <br />
