@@ -8,8 +8,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home.jsx';
 import Concept from './pages/Concept.jsx';
 import Research from './pages/Research.jsx';
-import Team from './pages/Team.jsx'
-import Login from './pages/Login.jsx'
+import Team from './pages/Team.jsx';
+import Login from './pages/Login.jsx';
+import LandingPage from './protected-pages/LandingPage.jsx';
 
 // components to be imported
 import Navbar from './components/Navbar.jsx';
@@ -35,6 +36,7 @@ function App() {
             </div>
           }
         />
+        <Route path="/welcome" element={<LandingPage />} />
         </Routes>
       </Router>
     </div>

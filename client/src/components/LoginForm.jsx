@@ -1,12 +1,18 @@
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
-import { Link, BrowserRouter as Router, Route, Routes } from 'react-router';
+import { Link, Route, Routes } from 'react-router-dom';
 
 // images
 import Image from '../media/img/form-img.jpeg';
 import { FaRegUserCircle, FaLock } from "react-icons/fa";
 
 export default function LoginForm() {
+    const [login, setLogin] = useState('');
+
+    const handleLogin = () => {
+        // Implement your login logic here
+    };
+
     return (
         <div className="rounded-3xl overflow-hidden shadow-lg border border-[#FBF6F0]">
             <div className="grid grid-cols-2">
@@ -46,11 +52,15 @@ export default function LoginForm() {
                             <span className="text-[#FBF6F0]">Remember me?</span>
                         </label>
                         <div id="buttons">
-                            <button 
-                                type="button" 
-                                className="bg-[#FBF6F0] text-[#333333] font-bold py-2 px-4 rounded-3xl">
-                                LOGIN
-                            </button>
+                            <Link
+                                to="/welcome"
+                            >
+                                <button 
+                                    type="button" 
+                                    className="bg-[#FBF6F0] text-[#333333] font-bold py-2 px-4 rounded-3xl">
+                                    LOGIN
+                                </button>
+                            </Link>
                             <br />
                             <p className="text-[#FBF6F0]">
                                 Don't have an account?
