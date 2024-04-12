@@ -16,53 +16,56 @@ export default function LandingPage() {
                     <div id="generateButtons" className="py-12 grid grid-cols-3 justify-around">
                         {/*  */}
                         <button 
-                        className="bg-[#333333] 
-                        px-3 
-                        text-3xl 
-                        font-bold 
-                        text-[#FBF6F0] 
-                        py-28 
-                        mx-24
-                        rounded-3xl
-                        transform
-                        transition duration-1000 
-                        hover:scale-125
-                        hover:bg-[#9C9892]
-                        hover:text-[#333333]">
+                        className="
+                            bg-[#333333] 
+                            px-3 
+                            text-3xl 
+                            font-bold 
+                            text-[#FBF6F0] 
+                            py-28 
+                            mx-24
+                            rounded-3xl
+                            transform
+                            transition duration-1000 
+                            hover:scale-125
+                            hover:bg-[#9C9892]
+                            hover:text-[#333333]">
                         Make an outfit with recommended pieces
                         </button>
                         {/*  */}
                         <button 
-                        className="bg-[#333333] 
-                        px-3 
-                        text-3xl 
-                        font-bold 
-                        text-[#FBF6F0] 
-                        py-32 
-                        mx-24 
-                        rounded-3xl
-                        transform
-                        transition duration-1000 
-                        hover:scale-125
-                        hover:bg-[#9C9892]
-                        hover:text-[#333333]">
+                        className="
+                            bg-[#333333] 
+                            px-3 
+                            text-3xl 
+                            font-bold 
+                            text-[#FBF6F0] 
+                            py-32 
+                            mx-24 
+                            rounded-3xl
+                            transform
+                            transition duration-1000 
+                            hover:scale-125
+                            hover:bg-[#9C9892]
+                            hover:text-[#333333]">
                         Make an outfit with my own pieces
                         </button>
                         {/*  */}
                         <button 
-                        className="bg-[#333333] 
-                        px-3 
-                        text-3xl 
-                        font-bold 
-                        text-[#FBF6F0] 
-                        py-32 
-                        mx-24
-                        rounded-3xl
-                        transform
-                        transition duration-1000 
-                        hover:scale-125
-                        hover:bg-[#9C9892]
-                        hover:text-[#333333]">
+                        className="
+                            bg-[#333333] 
+                            px-3 
+                            text-3xl 
+                            font-bold 
+                            text-[#FBF6F0] 
+                            py-32 
+                            mx-24
+                            rounded-3xl
+                            transform
+                            transition duration-1000 
+                            hover:scale-125
+                            hover:bg-[#9C9892]
+                            hover:text-[#333333]">
                         Look at my <br />“Saved Outfits”
                         </button>
                     </div>
