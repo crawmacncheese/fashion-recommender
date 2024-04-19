@@ -1,0 +1,1 @@
+mongodb+srv://zavierand98:<password>@ssense-d-eclat.z8gpvka.mongodb.net/
