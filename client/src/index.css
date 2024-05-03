@@ -24,3 +24,7 @@ img {
   object-fit: cover;
 }
 
+button {
+  width: 250px;
+}
+
