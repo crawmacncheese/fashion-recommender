@@ -1,5 +1,5 @@
-minimaltop = {
-    "top": [
+{ "minimaltop":
+        [
         {"brand": "APC", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241252M192071_1/apc-white-natacha-ramsay-levi-edition-warvol-shirt.jpg",
          "link": "https://www.ssense.com/en-us/men/product/apc/white-natacha-ramsay-levi-edition-warvol-shirt/14959681",
          "type": "top",  "tag": "minimal"},
@@ -15,11 +15,10 @@ minimaltop = {
         {"brand": "Hugo", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241084M192042_1/hugo-blue-button-shirt.jpg",
          "link": "https://www.ssense.com/en-us/men/product/hugo-hugo-boss/blue-button-shirt/14942781",
          "type": "top",  "tag": "minimal" }
-    ]
-}
+    ],
 
-minimaljacket= {
-    "jacket": [
+"minimaljacket": 
+    [
         {"brand": "Attachment", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241705M202001_1/attachment-black-raglan-hoodie.jpg",
          "link": "https://www.ssense.com/en-us/men/product/attachment/black-raglan-hoodie/15230041",
          "type": "jacket", "tag": "minimal"},
@@ -35,11 +34,8 @@ minimaljacket= {
         {"brand": "Barena", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241313M180003_1/barena-navy-zip-jacket.jpg", 
          "link": "https://www.ssense.com/en-us/men/product/barena/navy-zip-jacket/15284251", 
          "type": "jacket", "tag": "minimal"}
-    ]
-}
-
-minimalbottom= {
-    "bottom": [
+    ],
+"minimalbottom": [
         {"brand": "Nudie Jeans", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241078M186034_1/nudie-jeans-blue-gritty-jackson-jeans.jpg",
          "link": "https://www.ssense.com/en-us/men/product/nudie-jeans/blue-gritty-jackson-jeans/14449891", "type": "bottom", "tag": "minimal"},
         {"brand": "Our Legacy", "image": "https://img.ssensemedia.com/images/g_center,f_auto/232803M191010_1/our-legacy-black-22-trousers.jpg",
@@ -53,11 +49,9 @@ minimalbottom= {
         {"brand": "Eytys", "image": "https://img.ssensemedia.com/images/g_center,f_auto/232640M186014_1/eytys-black-benz-jeans.jpg",
          "link": "https://www.ssense.com/en-us/men/product/eytys/black-benz-jeans/13844131", 
          "type": "bottom", "tag": "minimal"}
-    ]
-}
+    ],
 
-minimalshoes= {
-    "shoes": [
+"minimalshoes": [
         {"brand": "New Balance", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241402M237122_1/new-balance-beige-997rmb-sneakers.jpg",
          "link": "https://www.ssense.com/en-us/men/product/new-balance/beige-997rmb-sneakers/14801231",
          "type": "shoes", "tag": "minimal"},
@@ -73,11 +67,9 @@ minimalshoes= {
         {"brand": "Jil Sander", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241249M225004_1/jil-sander-black-lace-up-derbys.jpg",
          "link": "https://www.ssense.com/en-us/men/product/jil-sander/black-lace-up-derbys/14642991",
          "type": "shoes", "tag": "minimal"}
-    ]
-}
+    ],
 
-streettop = {
-    "top": [
+"streettop" : [
         {"brand": "Dime", "image": "https://img.ssensemedia.com/images/g_center,f_auto/242841M213002_1/dime-blue-and-black-striker-long-sleeve-t-shirt.jpg",
          "link": "https://www.ssense.com/en-us/men/product/dime/blue-and-black-striker-long-sleeve-t-shirt/15444461",
          "type": "top", "tag": "streetwear"},
@@ -93,11 +85,9 @@ streettop = {
         {"brand": "Palm Angels", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241695M213008_1/palm-angels-black-graphic-t-shirt.jpg",
          "link": "https://www.ssense.com/en-us/men/product/palm-angels/black-graphic-t-shirt/14644851",
          "type": "top", "tag": "streetwear"}
-    ]
-}
+    ],
 
-streetjacket = {
-    "jacket": [
+"streetjacket" : [
         {"brand": "Ambush", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241820M175001_1/ambush-navy-patch-bomber-jacket.jpg",
          "link": "https://www.ssense.com/en-us/men/product/ambush/navy-patch-bomber-jacket/15222251",
          "type": "jacket", "tag": "streetwear"},
@@ -113,11 +103,9 @@ streetjacket = {
         {"brand": "Moncler", "image": "https://img.ssensemedia.com/images/g_center,f_auto/221111M178020_1/moncler-black-down-galion-puffer-jacket.jpg",
          "link": "https://www.ssense.com/en-us/men/product/moncler/black-down-galion-puffer-jacket/8385801",
          "type": "jacket", "tag": "streetwear"}
-    ]
-}
+    ],
 
-streetbottom= {
-    "bottom": [
+"streetbottom": [
         {"brand": "Rick Owens DRKSHDW", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241126M188010_1/rick-owens-drkshdw-black-double-cargo-jumbo-belas-cargo-pants.jpg",
          "link": "https://www.ssense.com/en-us/men/product/rick-owens-drkshdw/black-double-cargo-jumbo-belas-cargo-pants/15214521",
          "type": "bottom", "tag": "streetwear"},
@@ -133,11 +121,9 @@ streetbottom= {
         {"brand": "Palm Angels", "image": "https://img.ssensemedia.com/images/g_center,f_auto/231695M186005_1/palm-angels-blue-alameda-jeans.jpg",
          "link": "https://www.ssense.com/en-us/men/product/palm-angels/blue-alameda-jeans/12207691",
          "type": "bottom", "tag": "streetwear"}
-    ]
-}
+    ],
 
-streetshoes= {
-    "shoes": [
+"streetshoes": [
         {"brand": "Nike Jordan", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241445M236008_1/nike-jordan-purple-and-white-air-jordan-1-retro-sneakers.jpg",
          "link": "https://www.ssense.com/en-us/men/product/jordan/purple-and-white-air-jordan-1-retro-sneakers/14404391",
          "type": "shoes", "tag": "streetwear"},
@@ -153,11 +139,9 @@ streetshoes= {
         {"brand": "Nike", "image": "https://img.ssensemedia.com/images/g_center,f_auto/242011M237030_1/nike-blue-air-max-97-sneakers.jpg",
          "link": "https://www.ssense.com/en-us/men/product/nike/blue-air-max-97-sneakers/15561231",
          "type": "shoes", "tag": "streetwear"}
-    ]
-}
+    ],
 
-techtop = {
-    "top": [
+"techtop": [
         {"brand": "ROA", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241204M213023_1/roa-gray-seamless-t-shirt.jpg",
          "link": "https://www.ssense.com/en-us/men/product/roa/gray-seamless-t-shirt/15360711",
          "type": "top", "tag": "techwear"},
@@ -173,11 +157,9 @@ techtop = {
         {"brand": "Hyein Seo", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241429M213005_1/hyein-seo-gray-pocket-t-shirt.jpg",
          "link": "https://www.ssense.com/en-us/men/product/hyein-seo/gray-pocket-t-shirt/15615361",
          "type": "top", "tag": "techwear"}
-    ]
-}
+    ],
 
-techjacket = {
-    "jacket": [
+"techjacket": [
         {"brand": "Daiwa Pier39", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241970M180001_1/daiwa-pier39-indigo-two-way-perfect-fishing-jacket.jpg",
          "link": "https://www.ssense.com/en-us/men/product/daiwa-pier39/indigo-two-way-perfect-fishing-jacket/14122101",
          "type": "jacket", "tag": "techwear"},
@@ -193,11 +175,9 @@ techjacket = {
         {"brand": "ROA", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241204M178004_1/roa-khaki-lightweight-down-jacket.jpg",
          "link": "https://www.ssense.com/en-us/men/product/roa/khaki-lightweight-down-jacket/15360651",
          "type": "jacket", "tag": "techwear"}
-    ]
-}
+    ],
 
-techbottom= {
-    "bottom": [
+"techbottom": [
         {"brand": "Kiko Kostadinov", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241985M191011_1/kiko-kostadinov-brown-tonino-trousers.jpg",
          "link": "https://www.ssense.com/en-us/men/product/kiko-kostadinov/brown-tonino-trousers/15177401",
          "type": "bottom", "tag": "techwear"},
@@ -213,11 +193,9 @@ techbottom= {
         {"brand": "CP Company", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241357M188001_1/cp-company-gray-ergonomic-cargo-pants.jpg",
          "link": "https://www.ssense.com/en-us/men/product/cp-company/gray-ergonomic-cargo-pants/14650281",
          "type": "bottom", "tag": "techwear"}
-    ]
-}
+    ],
 
-techshoes= {
-    "shoes": [
+"techshoes": [
         {"brand": "ON", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241585M237019_1/on-gray-and-green-cloudsurfer-trail-sneakers.jpg",
          "link": "https://www.ssense.com/en-us/men/product/on-running/gray-and-green-cloudsurfer-trail-sneakers/15049591",
          "type": "shoes", "tag": "techwear"},
@@ -233,11 +211,8 @@ techshoes= {
         {"brand": "Moncler", "image": "https://img.ssensemedia.com/images/g_center,f_auto/212111M237009_1/moncler-herlot-suede-hiking-boots.jpg",
          "link": "https://www.ssense.com/en-us/men/product/moncler/herlot-suede-hiking-boots/7204481",
          "type": "shoes", "tag": "techwear"}
-    ]
-}
-
-luxurytop= {
-    "top": [
+    ],
+"luxurytop": [
         {"brand": "Uma Wang", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241973M192005_1/uma-wang-brown-tab-shirt.jpg",
          "link": "https://www.ssense.com/en-us/men/product/uma-wang/brown-tab-shirt/14962571",
          "type": "top", "tag": "luxury"},
@@ -253,11 +228,9 @@ luxurytop= {
         {"brand": "Tom Ford", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241076M192024_1/tom-ford-black-slim-fit-shirt.jpg",
          "link": "https://www.ssense.com/en-us/men/product/tom-ford/black-slim-fit-shirt/15198321",
          "type": "top", "tag": "luxury"}
-    ]
-}
+    ],
 
-luxuryjacket= {
-    "jacket": [
+"luxuryjacket": [
         {"brand": "Black Comme Des Garcons", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241935M195004_1/black-comme-des-garcons-black-asymmetric-blazer.jpg",
          "link": "https://www.ssense.com/en-us/men/product/comme-des-garandccedilons-black/black-asymmetric-blazer/14971611",
          "type": "jacket", "tag": "luxury"},
@@ -273,11 +246,9 @@ luxuryjacket= {
         {"brand": "Bottega Veneta", "image": "https://img.ssensemedia.com/images/g_center,f_auto/232798M180013_1/bottega-veneta-brown-criss-cross-jacket.jpg",
          "link": "https://www.ssense.com/en-us/men/product/bottega-veneta/brown-criss-cross-jacket/14387871",
          "type": "jacket", "tag": "luxury"}
-    ]
-}
+    ],
 
-luxurybottom = {
-    "bottom": [
+"luxurybottom": [
         {"brand": "The Row", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241359M191007_1/the-row-gray-finch-trousers.jpg",
          "link": "https://www.ssense.com/en-us/men/product/the-row/gray-finch-trousers/15009371",
          "type": "bottom", "tag": "luxury"},
@@ -293,11 +264,9 @@ luxurybottom = {
         {"brand": "Rick Owens", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241232M189003_1/rick-owens-black-geth-leather-pants.jpg",
          "link": "https://www.ssense.com/en-us/men/product/rick-owens/black-geth-leather-pants/14649161",
          "type": "bottom", "tag": "luxury"}
-    ]
-}
+    ],
 
-luxuryshoes = {
-    "shoes": [
+"luxuryshoes": [
         {"brand": "Guidi", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241703M228000_1/guidi-black-gr07fzi-boots.jpg",
          "link": "https://www.ssense.com/en-us/men/product/guidi/black-gr07fzi-boots/15264041",
          "type": "shoes", "tag": "luxury"},
@@ -313,11 +282,9 @@ luxuryshoes = {
         {"brand": "Dries Van Noten", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241358M231014_1/dries-van-noten-black-paneled-loafers.jpg",
          "link": "https://www.ssense.com/en-us/men/product/dries-van-noten/black-paneled-loafers/14932501",
          "type": "shoes", "tag": "luxury"}
-    ]
-}
+    ],
 
-avanttop = {
-    "top": [
+"avanttop": [
         {"brand": "Comme Des Garcons Homme Plus", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241347M192004_1/comme-des-garcons-homme-plus-white-vented-shirt.jpg",
          "link": "https://www.ssense.com/en-us/men/product/comme-des-garcons-homme-plus/white-vented-shirt/14973461",
          "type": "top", "tag": "avantgarde"},
@@ -333,11 +300,9 @@ avanttop = {
         {"brand": "Boris Bidjan Saberi", "image": "https://img.ssensemedia.com/images/g_center,f_auto/222616M213007_1/boris-bidjan-saberi-black-object-dyed-long-sleeve-t-shirt.jpg",
          "link": "https://www.ssense.com/en-us/men/product/boris-bidjan-saberi/black-object-dyed-long-sleeve-t-shirt/10324191",
          "type": "top", "tag": "avantgarde"}
-    ]
-}
+    ],
 
-avantjacket = {
-    "jacket": [
+"avantjacket": [
         {"brand": "Boris Bidjan Saberi", "image": "https://img.ssensemedia.com/images/g_center,f_auto/221616M202003_1/boris-bidjan-saberi-grey-zip-up-dyed-sweater.jpg",
          "link": "https://www.ssense.com/en-us/men/product/boris-bidjan-saberi/grey-zip-up-dyed-sweater/8607371",
          "type": "jacket", "tag": "avantgarde"},
@@ -353,11 +318,8 @@ avantjacket = {
         {"brand": "Rick Owens", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241232M181001_1/rick-owens-black-edfu-leather-jacket.jpg",
          "link": "https://www.ssense.com/en-us/men/product/rick-owens/black-edfu-leather-jacket/14654361",
          "type": "jacket", "tag": "avantgarde"}
-    ]
-}
-
-avantbottom= {
-    "bottom": [
+    ],
+"avantbottom": [
         {"brand": "Boris Bidjan Saberi", "image": "https://img.ssensemedia.com/images/g_center,f_auto/231616M186001_1/boris-bidjan-saberi-black-p13-tf-jeans.jpg",
          "link": "https://www.ssense.com/en-us/men/product/boris-bidjan-saberi/black-p13-tf-jeans/12156001",
          "type": "bottom", "tag": "avantgarde"},
@@ -373,11 +335,9 @@ avantbottom= {
         {"brand": "Doublet", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241038M190000_1/doublet-black-layered-sweatpants.jpg",
          "link": "https://www.ssense.com/en-us/men/product/doublet/black-layered-sweatpants/15366661",
          "type": "bottom", "tag": "avantgarde"}
-    ]
-}
+    ],
 
-avantshoes= {
-    "shoes": [
+"avantshoes": [
         {"brand": "Guidi", "image": "https://img.ssensemedia.com/images/g_center,f_auto/241703M228006_1/guidi-black-pl1_ru-boots.jpg",
          "link": "https://www.ssense.com/en-us/men/product/guidi/black-pl1ru-boots/15264231",
          "type": "shoes", "tag": "avantgarde"},
@@ -395,5 +355,4 @@ avantshoes= {
          "type": "shoes", "tag": "avantgarde"}
     ]
 }
-
 

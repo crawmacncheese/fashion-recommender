@@ -1,9 +1,17 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 
 export default function LandingPage() {
+    const navigate = useNavigate();
+
+    const recommender = () => {
+        navigate('/recommender');
+    }
+    
 
     return(
-        <div className="h-screen w-screen bg-[#333333]">
+        <div className="h-screen w-screen bg-gradient-to-r from-[#333333] to-[#FBF6F0]">
             <div className="pt-32 pb-0 pl-48 pr-8 grid-grid-cols-4">
                 {/* first part of form */}
                 <form className="bg-[#FBF6F0] rounded-3xl span-cols-3">
@@ -13,7 +21,7 @@ export default function LandingPage() {
                         assistance on
                         your outfit today...
                     </p>
-                    <div id="generateButtons" className="py-12 grid grid-cols-3 justify-around">
+                    <div id="generateButtons" className="py-12 grid grid-cols-4 justify-aroun">
                         {/*  */}
                         <button 
                         className="
@@ -29,7 +37,8 @@ export default function LandingPage() {
                             transition duration-1000 
                             hover:scale-125
                             hover:bg-[#9C9892]
-                            hover:text-[#333333]">
+                            hover:text-[#333333]"
+                            onClick={recommender}>
                         Make an outfit with recommended pieces
                         </button>
                         {/*  */}

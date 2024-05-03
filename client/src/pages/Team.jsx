@@ -52,10 +52,15 @@ export default function Team() {
                 {/* bio 2 */}
                 <div>
                     <p>
-                        My name is Alvin. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum 
-                        curabitur vitae nunc sed velit dignissim sodales ut. Sit amet venenatis urna 
-                        cursus eget nunc scelerisque viverra. Ac tincidunt vitae semper quis lectus.
+                        My name is Alvin. I am currently a sophomore at NYU studying computer science
+                        at CAS. I was born and raised in Hong Kong, where I lived for the first 18 years of my life up until college. 
+                        Currently, my hobbies include fashion, music, powerlifting, 
+                        and basketball.
+                    </p>
+                    <br />
+                    <p>
+                        Over the course of my time as a coder, I have worked with languages and frameworks such as Python, Java, 
+                        C/C++, HTML/CSS, Javascript, React, NodeJS, and ExpressJS.
                     </p>
                 </div>
             </div>

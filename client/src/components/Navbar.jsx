@@ -12,6 +12,11 @@ export default function Navbar() {
     // destructured from react-router dom
     const navigate = useNavigate();
 
+    const homePage = () => {
+        let path = '/';
+        navigate(path);
+    }
+
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
@@ -30,7 +35,7 @@ export default function Navbar() {
                         smooth={true}
                         duration={500}
                         className="drop-shadow-2xl cursor-pointer"
-                        onClick={toggleMenu}
+                        onClick={homePage}
                     >
                         D'Éclat
                     </ScrollLink>

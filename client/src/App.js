@@ -11,6 +11,8 @@ import Research from './pages/Research.jsx';
 import Team from './pages/Team.jsx';
 import Login from './pages/Login.jsx';
 import LandingPage from './protected-pages/LandingPage.jsx';
+import Recommender from './pages/Recommender.jsx';
+import Outfit from './pages/Outfit.jsx';
 
 // components to be imported
 import Navbar from './components/Navbar.jsx';
@@ -37,6 +39,8 @@ function App() {
           }
         />
         <Route path="/welcome" element={<LandingPage />} />
+        <Route path="/recommender" element={<Recommender/>}/>
+        <Route path="/outfit" element={<Outfit/>}/>
         </Routes>
       </Router>
     </div>
