@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar.jsx'
-import { useNavigate} from 'react-router-dom';
+import { useLocation, useNavigate} from 'react-router-dom';
+let choicearray = [0,0,0,0,0];
 
 export default function Recommender() {
     let [counter, setCounter] = useState(0);
     const [choice1, setChoice1] = useState("https://i.pinimg.com/736x/04/23/16/04231648b58916383408127b1802ca91.jpg");
     const [choice2, setChoice2] = useState("https://i.pinimg.com/564x/84/05/f5/8405f55ae7e5239467cbb64881d5e62e.jpg");
     const [selected, setSelected] = useState(null);
+    // 0 is street, 1 is tech, 2 is luxury, 3 is minimal, 4 is avant
 
     const array1 = ["1", "https://images.squarespace-cdn.com/content/v1/5c34764c297114ca20d6777b/1687830454020-J50V129WRUL8YOUK50N0/LOEWE_SS24_MW_SHOW_RUNWAY_LOOK_42_FRONT_RGB_CROPPED_2X3_42.jpg?format=1000w",
     "https://i.pinimg.com/736x/31/93/97/31939791806f751257577c1588b3a1ca.jpg",
@@ -20,10 +22,24 @@ export default function Recommender() {
     const navigate = useNavigate();
 
     const handleClick1 = () => {
+
         counter++;
         setCounter(counter);
+        if(counter === 1) {
+            choicearray[0]++;
+        }
+        if(counter === 2) {
+            choicearray[2]++;
+        }
+        if(counter === 3) {
+            choicearray[3]++;
+        }
         if(counter === 4) {
-            navigate('/outfit');
+            choicearray[1]++;
+        }
+        if(counter === 5) {
+            choicearray[4]++;
+            navigate('/outfit', {state: {choicearray}});
         }
         setChoice1(array1[counter]);
         setChoice2(array2[counter]);
@@ -33,8 +49,21 @@ export default function Recommender() {
 
         counter++;
         setCounter(counter);
+        if(counter === 1) {
+            choicearray[1]++;
+        }
+        if(counter === 2) {
+            choicearray[0]++;
+        }
+        if(counter === 3) {
+            choicearray[4]++;
+        }
         if(counter === 4) {
-            navigate('/outfit');
+            choicearray[2]++;
+        }
+        if(counter === 5) {
+            choicearray[3]++;
+            navigate('/outfit', {state: {choicearray}});
         }
         setChoice1(array1[counter]);
         setChoice2(array2[counter]);
@@ -60,4 +89,8 @@ export default function Recommender() {
             </div>
         </div>
     );
+}
+
+export function choices() {
+    return choicearray;
 }
