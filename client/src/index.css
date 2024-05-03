@@ -28,3 +28,7 @@ button {
   width: 250px;
 }
 
+.shoes {
+  object-fit: contain;
+}
+

@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar.jsx'
 import { useLocation, useNavigate} from 'react-router-dom';
 let choicearray = [0,0,0,0,0];
 
+
 export default function Recommender() {
     let [counter, setCounter] = useState(0);
     const [choice1, setChoice1] = useState("https://i.pinimg.com/736x/04/23/16/04231648b58916383408127b1802ca91.jpg");

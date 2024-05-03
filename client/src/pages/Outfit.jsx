@@ -47,7 +47,7 @@ export default function Outfit() {
                         <a href={style.top[0].link}><img src={style.top[0].image} className='rounded-3xl'/></a>
                         <a href={style.jacket[0].link}><img src={style.jacket[0].image} className='rounded-3xl'/></a>
                         <a href={style.bottom[0].link}><img src={style.bottom[0].image} className='rounded-3xl'/></a>
-                        <a href={style.shoes[0].link}><img src={style.shoes[0].image} className='rounded-3xl'/></a>
+                        <a href={style.shoes[0].link}><img src={style.shoes[0].image} className='rounded-3xl shoes'/></a>
                         {/* <img src={datajson.avantjacket[1].image} className='rounded-3xl'/>
                         <img src={datajson.avantjacket[1].image} className='rounded-3xl'/>
                         <img src={datajson.avantjacket[1].image} className='rounded-3xl'/> */}
